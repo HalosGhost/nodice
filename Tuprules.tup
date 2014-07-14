@@ -1,0 +1,7 @@
+ifeq (@(TUP_DEBUG),y)
+   CFLAGS += -g
+else
+   CFLAGS += -Os
+endif
+
+CFLAGS += -Wall -Wpedantic -std=c11
