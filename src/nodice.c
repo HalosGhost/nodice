@@ -33,7 +33,7 @@
 // Usage //
 void 
 usage (int error) {
-    fputs("Usage: dice [options]\n\n"
+    fputs("Usage: nodice [options]\n\n"
           "Options:\n"
 		  "  -c, --color\t\thighlight natural floors and ceilings\n"
           "  -h, --help\t\tprint this help and exit\n"
