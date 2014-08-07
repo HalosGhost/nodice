@@ -7,6 +7,11 @@ I wrote this utility mostly ofr my own purposes (for use in role-playing games),
 ``nodice`` allows a user to request as many as 4294967295 random numbers between 1 and 4294967295 (``UINT_MAX``), inclusive.
 It also offers the ability to automatically color the floor and ceiling (if requested ``1`` would be colored red, and the maximum possible number would be colored green).
 
+
+To-Do
+-----
+Add option for calling random values from `random.org <http://random.org>`_ to grab "truly random" values.
+
 Dependencies
 ------------
 Because ``nodice`` uses only C99 standard library functions, all it should need is a compiler which can build using the C99 standard.
