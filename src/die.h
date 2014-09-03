@@ -34,7 +34,14 @@ struct die {
 
 void
 die_roll (struct die * die) {
-    die->face = (rand() % die->sides) + 1;
+
+    unsigned int r;
+
+    do {
+        r = rand();
+    } while ( r >= die->sides );
+
+    die->face = r + 1;
 }
 
 #endif // __DIE_H__
