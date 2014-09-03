@@ -85,7 +85,7 @@ main (int argc, char * argv []) {
     struct die dice [flag_number];
     srand(time(NULL));
 
-    for ( int i = 0; i < flag_number; i ++ ) {
+    for ( unsigned int i = 0; i < flag_number; i ++ ) {
         dice[i].sides = flag_sides;
         die_roll(&dice[i]);
         if ( flag_color ) {
