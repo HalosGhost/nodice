@@ -16,7 +16,7 @@ Dependencies
 ------------
 Because ``nodice`` uses only C99 standard library functions, all it should need is a compiler which can build using the C99 standard.
 However, for simplicity's sake, this project uses `tup <https://github.com/gittup/tup>`_ to manage building.
-While you can build it manually, installing ``tup`` allows you to build this project by simply running ``tup init && tup upd``.
+While you can build it manually, installing ``tup`` allows you to build this project by simply running ``tup upd``.
 
 Contributions
 -------------
